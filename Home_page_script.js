@@ -58,3 +58,21 @@ loginForm.addEventListener('submit', async (e) => {
     }
 });
 
+
+document.querySelectorAll('a.transition-link').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault(); // cancela navegação imediata
+    const href = this.href;
+
+    document.body.classList.add('fade-out');
+
+    setTimeout(() => {
+      window.location.href = href;
+    }, 500); // espera a animação acabar antes de mudar de página
+  });
+});
+
+// No carregamento da página nova, adiciona fade-in:
+window.addEventListener('DOMContentLoaded', () => {
+  document.body.classList.add('fade-in');
+});

@@ -1,229 +1,419 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
+/* RESET */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins' , sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-header{
-
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    background: #1e4b2f;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 99;
-
+body {
+  color: #4b5748;
+  line-height: 1.6;
+  min-height: 100vh;
+  background: black; /* fundo já com blur no ::before */
+  position: relative;
 }
 
+/* Blur no fundo com imagem fixa */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('images/Fundo_menu.png') no-repeat center center/cover fixed;
 
-.Logo{
-    font-size: 2em;
-    color: white;
-    user-select: none;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+/* HEADER FIXO */
+header {
+  width: 100%;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  font-size: 2em;
+  color: white;
+  user-select: none;
 }
 
 .navigation a {
-    position: relative;
-    font-size: 1.1em;
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 40px;
-
+  font-size: 1.1em;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+  position: relative;
 }
 
-.navigation a::after{
-
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    width: 100%;
-    height: 3px;
-    background: white;
-    border-radius: 5px;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .5s;
-
-
+.navigation a::after {
+  content: '';
+  position: absolute;
+  left: 0; bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: white;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s;
 }
 
-.navigation a:hover::after{
-    transform-origin: left;
-    transform: scaleX(1);
-
-
+.navigation a:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
+/* Botão login no header */
+.bntLogin-popup {
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: white;
+  font-weight: 500;
+  margin-left: 40px;
+  transition: 0.5s;
+}
 
+.bntLogin-popup:hover {
+  background: white;
+  color: #4b5748;
+}
 
-
-/* Hero section */
+/* SEÇÕES */
 .contact-hero {
-    background: linear-gradient(135deg, rgba(47,110,70,0.9), rgba(47,110,70,0.8)), url('images/fundo_2.jpg') no-repeat center center/cover;
-    padding: 80px 0;
-    text-align: center;
-    color: #fff;
-    font-weight: 600;
-    font-size: 2.8rem;
+  padding: 100px 20px 40px; /* considerando header fixo */
+  text-align: center;
+  color: white;
+}
+
+.contact-hero h1 {
+  font-size: 2.5rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 /* Contact Cards */
 .contact-cards {
-    display: flex;
-    justify-content: space-between;
-    margin: 40px 0 60px;
-    gap: 20px;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
 }
 
 .card {
-    background: #2f6e46cc; /* verde semi-transparente */
-    color: #d7e9d6;
-    padding: 30px;
-    flex: 1 1 30%;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgb(0 0 0 / 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    transition: transform 0.3s ease;
-    cursor: default;
+  background-color: #fff;
+  flex: 1;
+  min-width: 280px;
+  padding: 25px;
+  border-left: 5px solid #779271;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  color: #333;
 }
 
 .card:hover {
-    transform: translateY(-8px);
-}
-
-.card.featured {
-    background: #c9d6ca;
-    color: #162938;
-    box-shadow: 0 8px 20px rgb(0 0 0 / 0.2);
-    cursor: default;
+  transform: translateY(-5px);
 }
 
 .card i {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
+  font-size: 24px;
+  color: #779271;
+  margin-bottom: 10px;
 }
 
-/* Card headings */
 .card h3 {
-    margin-bottom: 12px;
-    font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .card p {
-    font-size: 0.9rem;
-    margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
 }
 
-/* Card link */
 .card a {
-    color: inherit;
-    font-weight: 600;
-    text-decoration: none;
-    border-bottom: 1.5px solid transparent;
-    transition: border-color 0.3s ease;
+  display: inline-block;
+  margin-top: 10px;
+  color: #779271;
+  font-weight: 600;
+  text-decoration: none;
 }
 
-.card a:hover {
-    border-color: currentColor;
+.card.featured {
+  border-left-color: #779271;
 }
 
-/* Get In Touch Section */
-.get-in-touch {
-    max-width: 700px;
-    margin: 0 auto 60px;
-    text-align: center;
-    padding: 0 10px;
-}
-
+/* Formulário de contato */
 .get-in-touch h2 {
-    font-weight: 700;
-    font-size: 2.4rem;
-    margin-bottom: 10px;
-    color: #162938;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: white;
 }
 
 .get-in-touch p {
-    font-weight: 300;
-    margin-bottom: 30px;
-    color: #425c4d;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: white;
 }
 
-/* Contact Form */
-.contact-form {
-    display: flex;
+form#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input, form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+form button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #779271;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #495a46;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .contact-cards {
     flex-direction: column;
-    gap: 18px;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header .navigation {
+    margin-top: 10px;
+  }
+
+  .contact-hero h1 {
+    font-size: 2rem;
+  }
 }
 
-.contact-form input,
-.contact-form textarea {
-    padding: 12px 15px;
-    font-size: 1rem;
-    border-radius: 8px;
-    border: 1.5px solid #ccc;
-    transition: border-color 0.3s ease;
+/* ======= MODAL LOGIN/REGISTER ======= */
+
+.wrapper {
+  position: fixed; /* fica fixo na tela, não no documento */
+  top: 50%;        /* meio vertical da viewport */
+  left: 50%;       /* meio horizontal da viewport */
+  width: 400px;
+  height: 440px;
+  background: transparent;
+  border: 2px solid rgba(225, 225, 225, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transform: translate(-50%, -50%) scale(0); /* move para o centro e esconde */
+  transform-origin: center center;
+  transition: transform 0.5s ease, height 0.2s ease;
+  z-index: 9999; /* fica acima de tudo */
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
-    border-color: #2f6e46;
-    outline: none;
+.wrapper.active-popup {
+  transform: translate(-50%, -50%) scale(1); /* centraliza e mostra */
 }
 
-.contact-form textarea {
-    resize: vertical;
+
+.wrapper.active{
+    height: 520px;
+
 }
 
-.contact-form button {
-    background: #2f6e46;
-    color: #fff;
-    padding: 14px 0;
-    font-weight: 600;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background 0.3s ease;
+.wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+
 }
 
-.contact-form button:hover {
-    background: #1e4b2f;
+.wrapper .form-box.login{
+    transition: transform .18s ease ;
+    transform: translateX(0);
 }
 
-/* Social Icons */
-.social-icons {
-    margin-top: 30px;
+.wrapper.active .form-box.login{
+    transition: none;
+    transform: translateX(-400px);
+
+
+}
+.wrapper .form-box.register{
+    position: absolute;
+    transition: none;
+    transform: translateX(400px);
+}
+
+
+.wrapper.active .form-box.register{
+    transition: transform .18s ease ;
+    transform: translateX(0);
+}
+
+.wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #4b5748;
+    font-size: 2em;
+    color: #f6f6f6;
     display: flex;
     justify-content: center;
-    gap: 25px;
+    align-items: center;
+    border-bottom-left-radius: 20px ;
+    cursor: pointer;
+    z-index: 1;
+
 }
 
-.social-icons a {
-    color: #2f6e46;
-    font-size: 1.5rem;
-    transition: color 0.3s ease;
+.form-box h2{
+    font-size: 2em;
+    color: #4b5748;
+    text-align: center;
+
 }
 
-.social-icons a:hover {
-    color: #1e4b2f;
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #4b5748;
+    margin: 30px 0 ;
+
 }
 
-/* Responsividade */
-@media (max-width: 900px) {
-    .contact-cards {
-        flex-direction: column;
-        gap: 30px;
-    }
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #343c32;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+
 }
+
+.input-box input:focus ~ label,
+.input-box input:not(:placeholder-shown) ~ label {
+    top: -5px;
+}
+
+.input-box input{
+
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #4b5748;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+
+
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #4b5748;
+    line-height: 57px;
+
+}
+.remember-forgot{
+    font-size: .9em;
+    color: #4b5748;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.remember-forgot label input{
+    accent-color: #4b5748 ;
+    margin-right: 3px;
+
+}
+
+.remember-forgot a{
+    color: #4b5748;
+    text-decoration: none;
+
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+
+}
+
+.bnt{
+    width: 100%;
+    height: 45px;
+    background: #4b5748 ;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #96a991;
+    font-weight: 500;
+
+}
+
+.login-register{
+    font-size: .9em;
+    color: #96a991;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+
+.login-register p a{
+    color: #96a991;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-register p a:hover{
+    text-decoration: underline;
+
+}
+

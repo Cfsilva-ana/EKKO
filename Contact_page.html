@@ -4,17 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>PROJETO EKKO | ENTRE OU CADASTRE-SE</title>
+    <title>PROJETO EKKO | CONTATO</title>
     <link rel="stylesheet" href="Contact_page_design.css">
+
+    <!-- SDK do EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+      (function(){
+        emailjs.init("SEU_PUBLIC_KEY"); // ⬅️ Substitua pelo seu PUBLIC KEY
+      })();
+    </script>
 </head>
 <body>
     <header>
         <h2 class="Logo">EKKO</h2>
         <nav class="navigation">
-            <a href="Home_page.html">Início</a>
-            <a href="#">Sobre</a>
-            <a href="#">Suporte</a>
-            <a href="Contact_page.html">Contatos</a>
+          <a href="Home_page.html">Início</a>
+          <a href="#">Sobre</a>
+          <a href="#">Suporte</a>
+          <a href="Contact_page.html">Contatos</a>
+          <button class="bntLogin-popup">Entrar</button> 
         </nav>
     </header>
 
@@ -31,7 +40,7 @@
         </div>
         <div class="card featured">
             <i class="fa-solid fa-envelope"></i>
-            <h3>EKKO@gmail.com</h3>
+            <h3>ekko@gmail.com</h3>
             <p>Envie um e-mail para nossa equipe.</p>
             <a href="#">Saiba mais →</a>
         </div>
@@ -45,20 +54,10 @@
 
     <section class="get-in-touch container">
         <h2>Entre em Contato</h2>
-        <p>Ficou com alguma dúvida ou sugestão? Envie sua mensagem abaixo e responderemos o mais breve possível.</p>
+        <p>Ficou com alguma dúvida ou sugestão? Envie sua mensagem abaixo e responderemos em breve.</p>
 
-        <!-- Formulário que envia para o Gmail usando FormSubmit -->
-        <form class="contact-form" action="https://formsubmit.co/projeto.ekko.3408@gmail.com" method="POST">
-
-            <!-- Desativa o reCAPTCHA -->
-            <input type="hidden" name="_captcha" value="false">
-
-            <!-- Redireciona para uma página de obrigado após envio -->
-            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Contact_page.html">
-
-            <!-- Campo invisível para proteger contra bots -->
-            <input type="text" name="_honey" style="display:none">
-
+        <!-- Formulário com EmailJS -->
+        <form id="contact-form">
             <input type="text" name="nome" placeholder="Nome" required>
             <input type="email" name="email" placeholder="E-mail" required>
             <input type="tel" name="telefone" placeholder="Telefone">
@@ -67,7 +66,90 @@
         </form>
     </section>
 
-    <script src="Home_page_script.js"></script>
+
+        <div class="wrapper">
+
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        <div class="form-box login">
+            <h2> Entrar</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required placeholder=" ">
+                    <label>Email</label>
+
+                </div>
+
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required placeholder=" ">
+                    <label>Senha</label>
+                    
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox" >Lembrar de mim</label>
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+
+                <button type="submit" class="bnt"> Entrar</button>
+                <div class="login-register">
+                    <p> Não tem uma conta? <a href="#" class="register-link">Registre-se</a></p>
+                </div>
+            </form>
+        </div>
+
+                <div class="form-box register">
+            <h2> Cadastre-se</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" required placeholder=" ">
+                    <label>Usuario</label>
+
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required placeholder=" ">
+                    <label>Email</label>
+
+                </div>
+
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required placeholder=" ">
+                    <label>Senha</label>
+                    
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox" >Aceito os termos e condições</label>
+                </div>
+
+                <button type="submit" class="bnt">Cadastrar</button>
+                <div class="login-register">
+                    <p> Já tem uma conta? <a href="#" class="login-link">Entre</a></p>
+                </div>
+            </form>
+        </div>
+
+        
+    </div>
+
+
+    <script src="Contact_page.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
