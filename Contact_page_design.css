@@ -29,11 +29,15 @@ body::before {
 
 /* HEADER FIXO */
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  padding: 15px 40px;
+  padding: 20px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 99;
 }
 
 .Logo {
@@ -158,75 +162,12 @@ header {
   border-left-color: #96a991;
 }
 
-/* Formulário de contato */
-.get-in-touch h2 {
-  font-size: 28px;
-  margin-bottom: 10px;
-  color: white;
-}
 
-.get-in-touch p {
-  margin-bottom: 20px;
-  font-size: 16px;
-  color: white;
-}
-
-form#contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-form input, form textarea {
-  padding: 12px;
-  font-size: 16px;
-  border: 1px solid #96a991;
-  border-radius: 6px;
-  resize: vertical;
-}
-
-form button {
-  padding: 12px;
-  font-size: 16px;
-  background-color: #96a991;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: 600;
-  transition: background 0.3s;
-}
-
-form button:hover {
-  background: #596456;
-}
-
-/* RESPONSIVO */
-@media (max-width: 768px) {
-  .contact-cards {
-    flex-direction: column;
-  }
-
-  header {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  header .navigation {
-    margin-top: 10px;
-  }
-
-  .contact-hero h1 {
-    font-size: 2rem;
-  }
-}
-
-/* ======= MODAL LOGIN/REGISTER ======= */
 
 .wrapper {
   position: fixed; /* fica fixo na tela, não no documento */
   top: 50%;        /* meio vertical da viewport */
-  left: 50%;       /* meio horizontal da viewport */
+  left: 50%;       
   width: 400px;
   height: 440px;
   background: transparent;
@@ -241,7 +182,7 @@ form button:hover {
   transform: translate(-50%, -50%) scale(0); /* move para o centro e esconde */
   transform-origin: center center;
   transition: transform 0.5s ease, height 0.2s ease;
-  z-index: 9999; /* fica acima de tudo */
+  z-index: 9999;
 }
 
 .wrapper.active-popup {
