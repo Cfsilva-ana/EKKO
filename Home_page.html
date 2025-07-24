@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE = edge">
-    <meta name="viewport" content="width= device-width , initial-scale= 1.0" > 
+    <meta name="viewport" content="width=device-width , initial-scale= 1.0" > 
     <title> PROJETO EKKO | ENTRE OU CADASTRE-SE </title>
     <link rel="stylesheet" href="Home_page_disining.css">
 
@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <h2 class="Logo"></h2>
+        <h2 class="Logo">EKKO</h2>
         <nav class="navigation">
             <a href="#">Inicio</a>
             <a href="#">Sobre</a>
@@ -25,20 +25,79 @@
     </header>
 
     <div class="wrapper">
+
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
         <div class="form-box login">
             <h2> Entrar</h2>
             <form action="#">
                 <div class="input-box">
-                    <span class="icon"></span>
-                    <input type="email" required>
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required placeholder=" ">
                     <label>Email</label>
 
                 </div>
-                    <div class="input-box">
-                    <span class="icon"></span>
-                    <input type="password" required>
+
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required placeholder=" ">
                     <label>Senha</label>
                     
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox" >Lembrar de mim</label>
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+
+                <button type="submit" class="bnt"> Entrar</button>
+                <div class="login-register">
+                    <p> Não tem uma conta? <a href="#" class="register-link">Registre-se</a></p>
+                </div>
+            </form>
+        </div>
+
+                <div class="form-box register">
+            <h2> Cadastre-se</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" required placeholder=" ">
+                    <label>Usuario</label>
+
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required placeholder=" ">
+                    <label>Email</label>
+
+                </div>
+
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required placeholder=" ">
+                    <label>Senha</label>
+                    
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox" >Aceito os termos e condições</label>
+                </div>
+
+                <button type="submit" class="bnt">Cadastrar</button>
+                <div class="login-register">
+                    <p> Já tem uma conta? <a href="#" class="login-link">Entre</a></p>
                 </div>
             </form>
         </div>
@@ -49,5 +108,7 @@
 
 
     <script src="Home_page_script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
