@@ -7,7 +7,7 @@
 }
 
 body {
-  color: #4b5748;
+  color: #96a991;
   line-height: 1.6;
   min-height: 100vh;
   background: black; /* fundo já com blur no ::before */
@@ -86,7 +86,7 @@ header {
 
 .bntLogin-popup:hover {
   background: white;
-  color: #4b5748;
+  color: #96a991;
 }
 
 /* SEÇÕES */
@@ -119,7 +119,7 @@ header {
   flex: 1;
   min-width: 280px;
   padding: 25px;
-  border-left: 5px solid #779271;
+  border-left: 5px solid #96a991;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   transition: transform 0.2s;
@@ -132,7 +132,7 @@ header {
 
 .card i {
   font-size: 24px;
-  color: #779271;
+  color: #96a991;
   margin-bottom: 10px;
 }
 
@@ -143,19 +143,19 @@ header {
 
 .card p {
   font-size: 14px;
-  color: #666;
+  color: #96a991;
 }
 
 .card a {
   display: inline-block;
   margin-top: 10px;
-  color: #779271;
+  color: #96a991;
   font-weight: 600;
   text-decoration: none;
 }
 
 .card.featured {
-  border-left-color: #779271;
+  border-left-color: #96a991;
 }
 
 /* Formulário de contato */
@@ -180,7 +180,7 @@ form#contact-form {
 form input, form textarea {
   padding: 12px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid #96a991;
   border-radius: 6px;
   resize: vertical;
 }
@@ -188,7 +188,7 @@ form input, form textarea {
 form button {
   padding: 12px;
   font-size: 16px;
-  background-color: #779271;
+  background-color: #96a991;
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -198,7 +198,7 @@ form button {
 }
 
 form button:hover {
-  background: #495a46;
+  background: #596456;
 }
 
 /* RESPONSIVO */
@@ -232,7 +232,7 @@ form button:hover {
   background: transparent;
   border: 2px solid rgba(225, 225, 225, 0.5);
   border-radius: 20px;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(76px);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
@@ -289,9 +289,9 @@ form button:hover {
     right: 0;
     width: 45px;
     height: 45px;
-    background: #4b5748;
+    background: #ffffff;
     font-size: 2em;
-    color: #f6f6f6;
+    color: #66956a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,7 +303,7 @@ form button:hover {
 
 .form-box h2{
     font-size: 2em;
-    color: #4b5748;
+    color: #ffffff;
     text-align: center;
 
 }
@@ -312,7 +312,7 @@ form button:hover {
     position: relative;
     width: 100%;
     height: 50px;
-    border-bottom: 2px solid #4b5748;
+    border-bottom: 2px solid #ffffff;
     margin: 30px 0 ;
 
 }
@@ -323,7 +323,7 @@ form button:hover {
     left: 5px;
     transform: translateY(-50%);
     font-size: 1em;
-    color: #343c32;
+    color: #ffffff;
     font-weight: 500;
     pointer-events: none;
     transition: .5s;
@@ -343,7 +343,7 @@ form button:hover {
     border: none;
     outline: none;
     font-size: 1em;
-    color: #4b5748;
+    color: #ffffff;
     font-weight: 600;
     padding: 0 35px 0 5px;
 
@@ -354,13 +354,13 @@ form button:hover {
     position: absolute;
     right: 8px;
     font-size: 1.2em;
-    color: #4b5748;
+    color: #ffffff;
     line-height: 57px;
 
 }
 .remember-forgot{
     font-size: .9em;
-    color: #4b5748;
+    color: #ffffff;
     font-weight: 500;
     margin: -15px 0 15px;
     display: flex;
@@ -369,13 +369,13 @@ form button:hover {
 }
 
 .remember-forgot label input{
-    accent-color: #4b5748 ;
+    accent-color: #ffffff ;
     margin-right: 3px;
 
 }
 
 .remember-forgot a{
-    color: #4b5748;
+    color: #ffffff;
     text-decoration: none;
 
 }
@@ -388,26 +388,26 @@ form button:hover {
 .bnt{
     width: 100%;
     height: 45px;
-    background: #4b5748 ;
+    background: #96a991 ;
     border: none;
     border-radius: 6px;
     cursor: pointer;
     font-size: 1em;
-    color: #96a991;
+    color: #ffffff;
     font-weight: 500;
 
 }
 
 .login-register{
     font-size: .9em;
-    color: #96a991;
+    color: #ffffff;
     text-align: center;
     font-weight: 500;
     margin: 25px 0 10px;
 }
 
 .login-register p a{
-    color: #96a991;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 600;
 }
