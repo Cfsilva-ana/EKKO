@@ -1,30 +1,59 @@
 const wrapper = document.querySelector('.wrapper');
 const loginLink = document.querySelector('.login-link');
-const registerLink = document.querySelector('.register-link');
-const loginBtn = document.querySelector('.bntLogin-popup');
-const iconClose = document.querySelector('.icon-close');
+const resgisterLink = document.querySelector('.register-link');
+const bntPopup = document.querySelector('.bntLogin-popup');
+const closeIcon = document.querySelector('.icon-close');
 
-loginBtn.addEventListener('click', () => {
-  wrapper.classList.add('active-popup');
-});
-
-registerLink.addEventListener('click', () => {
-  wrapper.classList.add('active');
+resgisterLink.addEventListener('click', () => {
+    wrapper.classList.add('active');
 });
 
 loginLink.addEventListener('click', () => {
-  wrapper.classList.remove('active');
+    wrapper.classList.remove('active');
 });
 
-iconClose.addEventListener('click', () => {
-  wrapper.classList.remove('active-popup');
+bntPopup.addEventListener('click', () => {
+    wrapper.classList.add('active-popup');
 });
 
-// (Opcional) Fecha modal ao clicar fora
-document.addEventListener('click', e => {
-  if (wrapper.classList.contains('active-popup') &&
-      !wrapper.contains(e.target) &&
-      e.target !== loginBtn) {
+closeIcon.addEventListener('click', () => {
     wrapper.classList.remove('active-popup');
-  }
+});
+
+// NOVO: Envio do formulário de login para o backend
+const loginForm = document.querySelector('.form-box.login form');
+
+loginForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const email = loginForm.querySelector('input[type="email"]').value.trim();
+    const password = loginForm.querySelector('input[type="password"]').value.trim();
+
+    if (!email || !password) {
+        alert('Por favor, preencha email e senha.');
+        return;
+    }
+
+    try {
+        const response = await fetch('http://localhost:3000/api/login', { // ajustar de acordo com a url
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ email, password })
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+            alert('Login realizado com sucesso!');
+            // Exemplo: redirecionar para painel
+            // window.location.href = '/dashboard.html';
+        } else {
+            alert(data.message || 'Erro ao fazer login');
+        }
+    } catch (error) {
+        alert('Erro na conexão com o servidor.');
+        console.error(error);
+    }
 });
