@@ -35,9 +35,9 @@ header{
 
 .wrapper {
   display: flex;
-  justify-content: center; /* centraliza na horizontal */
-  align-items: center;     /* centraliza na vertical */
-  height: 100vh;           /* ocupa a tela toda */
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
 }
 
 
