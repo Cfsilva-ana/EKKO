@@ -182,7 +182,7 @@ curl http://localhost:11434/api/tags
 
 ### Documentação Principal
 - **Instalação Completa**: [`INSTALL.md`](INSTALL.md) - Guia multiplataforma
-- **Backend Completo**: [`md/BACKEND_COMPLETO.md`](md/BACKEND_COMPLETO.md) - Arquitetura e API
+- **Backend Completo**: [`Backend/README.md`](Backend/README.md) - Arquitetura e API
 - **Frontend**: [`Frontend/README.md`](Frontend/README.md) - Interface e componentes
 - **API Docs**: http://localhost:8002/docs - Swagger interativo
 
