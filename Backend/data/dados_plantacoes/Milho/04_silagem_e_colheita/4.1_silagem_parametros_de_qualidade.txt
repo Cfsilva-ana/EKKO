@@ -1,0 +1,25 @@
+Tópico: Silagem de Milho - Parâmetros para Máxima Qualidade
+
+**Teoria e Importância:**
+A silagem é um método de conservação de forragem baseado na fermentação anaeróbica (ausência de oxigénio). O objetivo é preservar o valor nutritivo da planta de milho inteira para alimentar o gado (principalmente leiteiro) durante o período da seca. A qualidade da silagem impacta diretamente a produção de leite e o ganho de peso. Uma boa silagem é resultado de um processo, não do acaso, e é governada por parâmetros técnicos rígidos.
+
+**1. Ponto de Corte (O Parâmetro Mais Importante):**
+O ponto de corte ideal é definido pelo **Teor de Matéria Seca (MS)** da planta inteira.
+* **Parâmetro Ideal:** A planta deve ter entre **30% e 35% de Matéria Seca**. É nesta faixa que se atinge o equilíbrio perfeito entre alta produção de massa e máximo valor nutritivo (amido no grão).
+* **Consequências do Erro:**
+    * **Cortar Cedo demais (<30% MS):** A planta está muito húmida. Isto leva a uma fermentação indesejável (butírica), que resulta numa silagem ácida e de baixo consumo. Ocorre também grande perda de nutrientes por efluentes (chorume).
+    * **Cortar Tarde demais (>35% MS):** A planta está muito seca. Dificulta a compactação, deixando bolsas de ar no silo. O ar permite o crescimento de fungos e leveduras, que consomem os melhores nutrientes, aquecem o material e estragam a silagem, além de diminuir a digestibilidade da fibra.
+* **Método Prático de Campo (A Linha do Leite):**
+    * Uma forma visual e prática de estimar a matéria seca é através da "linha do leite" do grão. Quebre uma espiga ao meio e observe os grãos.
+    * **Ponto Ideal:** A linha de transição entre o amido farináceo (sólido, na ponta do grão) e o amido leitoso (líquido, na base) deve estar entre **1/2 (metade) e 2/3** do grão. Este é o "ponto de pamonha", que corresponde à faixa ideal de 30-35% de MS.
+
+**2. Parâmetros Operacionais de Qualidade:**
+
+| Parâmetro           | Especificação Técnica                                                              | Justificativa Teórica                                                                                             |
+|---------------------|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| **Altura do Corte** | **30 a 40 centímetros** do solo                                                    | O terço inferior do colmo é a parte menos digestível da planta e onde se concentram os nitratos. Deixá-lo no campo aumenta a qualidade energética da silagem. |
+| **Tamanho da Partícula** | **1 a 2 centímetros** | Deve ser pequeno o suficiente para uma boa compactação e expulsão do ar, mas grande o suficiente para estimular a ruminação e a saúde do rúmen da vaca ("fibra efetiva"). |
+| **Compactação** | Intensa e contínua. Mínimo de **5 minutos de compactação para cada carreta** descarregada. | O objetivo é expulsar o máximo de oxigénio possível para garantir que a fermentação seja 100% anaeróbica e feita pelas bactérias benéficas (produtoras de ácido lático). |
+| **Vedação** | **Imediata e completa** após o enchimento do silo.                                           | O oxigénio é o inimigo nº 1 da silagem. A vedação com lona de qualidade (dupla face) e a colocação de peso sobre a lona (pneus, terra) impede a entrada de ar e a deterioração da camada superior. |
+
+**Fermentação:** O processo de fermentação leva cerca de 30 dias para se estabilizar. O silo só deve ser aberto após este período. Uma vez aberto, a retirada da silagem deve ser feita em fatias diárias de no mínimo 30 cm para evitar a deterioração aeróbica da face exposta.

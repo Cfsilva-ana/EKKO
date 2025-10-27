@@ -1,0 +1,31 @@
+# EKKO - Dependências Python Completas
+# Instalar com: pip install -r requirements.txt
+
+# FastAPI e servidor
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# MongoDB
+pymongo==4.6.0
+
+# Utilitários
+pydantic==2.5.0
+python-dotenv==1.0.0
+
+# Dados simulados
+faker==20.1.0
+
+# WebSocket (para tempo real)
+websockets==12.0
+
+# CORS
+python-multipart==0.0.6
+
+# Logs
+python-json-logger==2.0.7
+
+# Requests para APIs externas
+requests==2.31.0
+
+# Numpy para cálculos
+numpy==1.24.3

@@ -1,0 +1,21 @@
+Tópico: Híbridos e População de Plantas de Milho
+
+**Escolha de Híbridos:**
+A escolha do híbrido correto é a decisão que mais impacta a produtividade.
+
+| Finalidade | Características do Híbrido Ideal                                                                  |
+|------------|----------------------------------------------------------------------------------------------------|
+| **Grãos** | Alto teto produtivo, estabilidade, bom "stay green" (mantém a folha verde mesmo com a espiga seca), colmo forte para evitar tombamento, grãos duros ou semiduros. |
+| **Silagem** | Alta produção de massa verde total, alta digestibilidade da fibra (FDN), grãos do tipo "dentado" (mais macios), bom "stay green" para uma janela de corte mais ampla. |
+
+**Tecnologias (Eventos Transgênicos):**
+* **Bt:** Produz proteínas inseticidas que controlam a Lagarta-do-cartucho. Essencial.
+* **RR/LL:** Tolerância a herbicidas como Glifosato (RR) ou Glufosinato de Amônio (LL), facilitando o controle de plantas daninhas.
+
+**Tabela de Parâmetros de Plantio (População):**
+
+| Parâmetro                 | Especificação Técnica                                                                                               |
+|---------------------------|---------------------------------------------------------------------------------------------------------------------|
+| **Espaçamento entre Linhas** | **0.45 a 0.50 metros** (45 a 50 cm)                                                                                    |
+| **População de Plantas/ha** | **Safra:** 65.000 a 75.000 plantas/ha<br>**Safrinha:** 55.000 a 65.000 plantas/ha                                        |
+| **Sementes por Metro (0.45m)** | - 60.000/ha = **2.7 sementes/metro**<br>- 70.000/ha = **3.15 sementes/metro** |

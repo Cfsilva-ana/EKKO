@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKKO Unity - Login</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="../css/login.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-links">
+            <a href="index.html">Voltar ao Início</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="logo-container">
+            <div class="logo">
+                <i class="fas fa-gamepad"></i>
+                ekko
+            </div>
+            <div class="logo-subtitle">Agricultura de Precisão</div>
+        </div>
+        
+        <h2 class="form-title">Acesse seu Dashboard</h2>
+        <p class="form-subtitle">Faça Login para visualizar seus dados, análises de IA e mais</p>
+        
+        <div class="info-box">
+            <i class="fas fa-info-circle"></i>
+            Digite apenas seu ID único apresentado na simulação para acessar seus dados de jogo e visualizar estatísticas.
+        </div>
+
+        <form onsubmit="handleUnityLogin(event)">
+            <div class="input-group">
+                <input type="text" id="unityId" placeholder="Seu ID" required>
+                <i class="fas fa-gamepad input-icon"></i>
+            </div>
+            <button type="submit" class="submit-btn" id="loginBtn">
+                Acessar Dashboard
+            </button>
+        </form>
+
+        <div id="messageContainer"></div>
+    </div>
+
+    <script>
+        const baseUrl = `http://${window.location.hostname}:8002`;
+
+        function showMessage(text, type = 'success') {
+            const container = document.getElementById('messageContainer');
+            container.innerHTML = `<div class="message ${type}"><i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle'}"></i> ${text}</div>`;
+            setTimeout(() => container.innerHTML = '', 5000);
+        }
+
+        async function handleUnityLogin(event) {
+            event.preventDefault();
+            
+            const unityId = document.getElementById('unityId').value.trim();
+            const btn = document.getElementById('loginBtn');
+            
+            if (!unityId) {
+                showMessage('Por favor, digite seu ID', 'error');
+                return;
+            }
+            
+            btn.disabled = true;
+            btn.innerHTML = '<span class="loading"><i class="fas fa-spinner"></i> Verificando Unity ID...</span>';
+            
+            try {
+                const response = await fetch(`${baseUrl}/unity/login/${unityId}`);
+                
+                if (response.ok) {
+                    const userData = await response.json();
+                    showMessage(`Bem-vindo! Redirecionando...`, 'success');
+                    
+                    localStorage.setItem('unityId', unityId);
+                    localStorage.setItem('unityUser', JSON.stringify(userData));
+                    
+                    setTimeout(() => {
+                        window.location.href = `dashboard.html?unityId=${unityId}`;
+                    }, 1500);
+                } else {
+                    const errorData = await response.json();
+                    showMessage(errorData.detail || 'ID não encontrado', 'error');
+                }
+            } catch (error) {
+                showMessage('Erro de conexão com o servidor', 'error');
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = 'Acessar Dashboard';
+            }
+        }
+
+        // Header scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Auto-focus no input
+        document.addEventListener('DOMContentLoaded', () => {
+            const input = document.getElementById('unityId');
+            const icon = document.querySelector('.input-icon');
+            
+            input.focus();
+            
+            // Mostrar ícone em preto quando usuário digita
+            input.addEventListener('input', () => {
+                if (input.value.trim().length > 0) {
+                    icon.classList.add('active');
+                } else {
+                    icon.classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

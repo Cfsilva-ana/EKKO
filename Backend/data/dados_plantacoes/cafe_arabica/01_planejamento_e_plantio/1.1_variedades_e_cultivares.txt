@@ -1,0 +1,13 @@
+**TÓPICO: Principais Variedades e Cultivares de Café Arábica para o Brasil**
+
+A escolha da variedade correta é a decisão mais importante e de longo prazo da lavoura.
+
+**Tabela Comparativa de Cultivares Populares:**
+
+| Cultivar       | Porte | Resistência à Ferrugem | Potencial de Bebida | Observações                                                                |
+|----------------|-------|------------------------|---------------------|----------------------------------------------------------------------------|
+| **Mundo Novo** | Alto  | Suscetível             | Excelente           | Muito produtivo, mas exige mais podas. Base de muitas variedades modernas.   |
+| **Catuaí** | Baixo | Suscetível             | Muito Bom           | O "padrão" do mercado. Fácil de manejar. Variedades Vermelho e Amarelo.    |
+| **Catucaí** | Baixo | **Resistente** | Bom a Muito Bom     | Cruzamento de Catuaí com Icatu. Ótima opção para manejo com menos defensivos. |
+| **Arara** | Baixo | **Alta Resistência** | **Excepcional** | Variedade mais recente, muito produtiva, resistente e com altíssimo potencial para cafés especiais. |
+| **Acauã** | Baixo | **Resistente** | Bom                 | Resistente também a nematoides. Adaptado a regiões mais quentes.           |

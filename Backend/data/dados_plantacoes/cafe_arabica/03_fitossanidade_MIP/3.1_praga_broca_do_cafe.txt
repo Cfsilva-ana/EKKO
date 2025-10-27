@@ -1,0 +1,19 @@
+**TÓPICO: Manejo Integrado da Broca-do-Café (Hypothenemus hampei)**
+
+**Teoria e Importância:**
+A Broca-do-Café é a praga que causa o maior dano econômico direto à cafeicultura mundial. O inseto é um pequeno besouro. A fêmea perfura a coroa do fruto de café, geralmente a partir de 90 dias após a florada, e cria uma galeria interna para depositar seus ovos. As larvas nascem e se alimentam da semente (o grão de café), destruindo-o parcial ou totalmente.
+* **Danos Diretos:** Perda de peso e rendimento.
+* **Danos Indiretos:** Os furos abrem portas para a entrada de fungos e bactérias que fermentam o grão, causando defeitos na bebida (sabor de "brocado" ou "rio"), o que resulta em severa depreciação no preço.
+
+**Parâmetros de Monitoramento:**
+* **Quando:** Iniciar 90-120 dias após a florada principal.
+* **Como:** Amostragem mensal. Percorra a lavoura em zigue-zague, analisando 100 frutos por talhão, e conte quantos estão brocados.
+* **Nível de Ação:** O controle é recomendado quando o nível de infestação atinge **2% a 3%** de frutos brocados.
+
+**Táticas de Controle (MIP):**
+
+| Tática              | Descrição                                                                                                                |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------|
+| **Controle Cultural** | É a mais importante. Realizar uma **colheita bem feita**, sem deixar grãos para trás na planta ou no chão ("repasse"). Os grãos remanescentes são o abrigo onde a broca sobrevive até a próxima safra. |
+| **Controle Biológico** | Aplicação do fungo entomopatogênico **Beauveria bassiana**. O fungo contamina e mata o inseto. Deve ser aplicado no início da infestação, com tempo úmido e nublado. |
+| **Controle Químico** | Pulverização com inseticidas específicos quando o Nível de Ação é atingido. O alvo é a broca adulta, antes que ela perfure o fruto. Ingredientes ativos comuns: Ciantraniliprole, Clorantraniliprole. |

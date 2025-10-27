@@ -1,0 +1,11 @@
+**TÓPICO: Interpretação de Análise de Solo e Foliar para Café**
+
+**Análise de Solo:**
+* **Objetivo:** Diagnosticar a fertilidade e a acidez do solo para planejar a correção (calagem) e a adubação de base.
+* **Quando Fazer:** A cada 2 anos em lavouras em produção.
+* **Parâmetros-Chave (0-20cm):** pH (ideal 5.8-6.2), V% (ideal 60-70%), P e K (ideal >15 e >120 mg/dm³ respectivamente).
+
+**Análise Foliar:**
+* **Objetivo:** É um "exame de sangue" da planta. Mostra o que ela realmente está absorvendo. É a melhor ferramenta para o ajuste fino da adubação, especialmente de micronutrientes.
+* **Quando Fazer:** Anualmente, cerca de 120 dias após a florada principal (geralmente em Janeiro/Fevereiro).
+* **Como Fazer:** Coletar o 3º ou 4º par de folhas, a partir do ápice, em ramos do terço médio da planta.

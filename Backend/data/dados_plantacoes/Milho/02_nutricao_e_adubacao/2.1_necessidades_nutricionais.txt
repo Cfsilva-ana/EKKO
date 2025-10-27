@@ -1,0 +1,29 @@
+Tópico: Necessidades Nutricionais da Cultura do Milho
+
+**Teoria Fundamental:**
+O milho é uma das culturas mais exigentes em nutrientes. A sua alta eficiência fotossintética (sendo uma planta C4) resulta num rápido acúmulo de biomassa, o que demanda uma grande quantidade de nutrientes do solo em um curto período de tempo. A nutrição adequada é o pilar para se atingir altas produtividades.
+
+**Os Macronutrientes Primários (O Trio Essencial):**
+
+1.  **Nitrogênio (N) - O Motor do Crescimento e da Produção:**
+    * **Função:** É o nutriente mais requerido pelo milho e está diretamente ligado à produtividade de grãos. O Nitrogênio é um componente vital da clorofila (responsável pela fotossíntese) e das proteínas.
+    * **Período Crítico de Absorção:** A maior demanda por N ocorre entre os estágios V4 (4 folhas definidas) e o pendoamento (VT). Uma deficiência de N neste período crítico limita drasticamente o número de grãos que a espiga irá formar, um dano que não pode ser revertido. Isto justifica a importância da adubação de cobertura.
+
+2.  **Fósforo (P) - A Energia do Arranque:**
+    * **Função:** O Fósforo é fundamental para o armazenamento e transferência de energia na planta (na forma de ATP) e, principalmente, para o desenvolvimento inicial do sistema radicular.
+    * **Importância Prática:** Uma boa disponibilidade de Fósforo no início do ciclo garante um "arranque" vigoroso da lavoura, com raízes bem formadas que explorarão um volume maior de solo em busca de água e outros nutrientes. Por ser pouco móvel no solo, sua aplicação deve ser concentrada no sulco de plantio.
+
+3.  **Potássio (K) - A Saúde e o Enchimento de Grãos:**
+    * **Função:** O Potássio atua na regulação da água dentro da planta, na ativação de enzimas e no transporte de açúcares produzidos na fotossíntese para os grãos.
+    * **Importância Prática:** Níveis adequados de K resultam em colmos mais fortes e resistentes ao tombamento (acamamento), maior sanidade da planta e, o mais importante, grãos mais pesados e de melhor qualidade.
+
+**Tabela de Extração de Nutrientes (Média para grãos):**
+Para cada **1 tonelada (1.000 kg)** de grãos de milho produzida, a planta extrai e exporta do solo aproximadamente:
+
+| Nutriente | Quantidade Extraída (kg/tonelada) |
+|-----------|-----------------------------------|
+| **N** | ~ 20-25 kg |
+| **P2O5** | ~ 8-10 kg |
+| **K2O** | ~ 5-7 kg |
+
+*Nota: A planta absorve muito mais Potássio para seu crescimento, mas boa parte fica na palhada. A tabela mostra o que é efetivamente removido da área com a colheita dos grãos.*

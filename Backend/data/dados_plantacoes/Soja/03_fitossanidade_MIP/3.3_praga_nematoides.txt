@@ -1,0 +1,29 @@
+**TÓPICO: Manejo de Nematoides na Soja**
+
+**Teoria e Importância:**
+Nematoides são vermes microscópicos que vivem no solo e são parasitas de raízes. Eles são um problema "invisível" e silencioso, mas que pode causar perdas severas e progressivas de produtividade. Uma vez estabelecidos em uma área, são praticamente impossíveis de serem erradicados; o manejo visa apenas a convivência e a supressão da sua população.
+
+**Principais Espécies:**
+* **Nematoide-das-Galhas (*Meloidogyne javanica* e *M. incognita*):** O mais comum no Brasil. Causa a formação de "galhas" ou "pipocas" nas raízes, que são engrossamentos facilmente visíveis.
+* **Nematoide-de-Cisto (*Heterodera glycines*):** Causa a formação de pequenos "cistos" (fêmeas mortas cheias de ovos) amarelados ou marrons nas raízes.
+* **Nematoide-das-Lesões Radiculares (*Pratylenchus brachyurus*):** Não forma galhas, mas causa lesões escuras e necróticas que destroem as raízes. É o de mais difícil controle.
+
+**Sintomas na Lavoura:**
+Os sintomas são inespecíficos e geralmente aparecem em "reboleiras" (manchas) na lavoura. As plantas ficam amareladas, raquíticas e com aspecto de deficiência nutricional, mesmo em solo bem adubado. O diagnóstico definitivo só pode ser feito com a análise de solo e raízes em laboratório especializado.
+
+**Estratégias de Manejo Integrado:**
+
+**1. Rotação e Sucessão de Culturas:**
+* **É a principal e mais eficiente ferramenta.** Consiste em plantar, na mesma área, espécies que não são hospedeiras do nematoide, ou que são más hospedeiras. Isso "mata a praga de fome".
+* **Exemplos de Culturas de Rotação (más hospedeiras para *Pratylenchus*):**
+    * **Milheto**
+    * **Crotalárias** (*Crotalaria spectabilis* e *C. ochroleuca*) - São as mais eficientes, consideradas "plantas de limpeza".
+    * **Braquiárias** (*Brachiaria ruziziensis*) - Excelente opção para a safrinha.
+* **O que EVITAR:** A sucessão Soja-Milho, muito comum, é péssima para o manejo de *Pratylenchus*, pois o milho é um bom hospedeiro e multiplica a população do nematoide para a próxima safra de soja.
+
+**2. Uso de Variedades Resistentes:**
+* Existem muitas variedades de soja com fator de resistência, principalmente para os Nematoides-de-Cisto e de Galhas. Para *Pratylenchus*, a resistência ainda é mais rara.
+
+**3. Controle Biológico e Químico (Nematicidas):**
+* **Nematicidas Biológicos:** Produtos à base de fungos (ex: *Pochonia chlamydosporia*) ou bactérias (ex: *Bacillus subtilis*) que podem ser aplicados no tratamento de sementes ou no sulco de plantio. Eles ajudam a proteger as raízes no início do desenvolvimento.
+* **Nematicidas Químicos:** Produtos de alta toxicidade aplicados no tratamento de sementes ou no sulco. Criam um "halo" de proteção inicial para a plântula.

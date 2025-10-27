@@ -1,0 +1,23 @@
+Tópico: Adubação de Plantio e Cobertura para o Milho
+
+A adubação do milho é dividida em duas etapas estratégicas: a adubação de base (plantio) e a adubação de cobertura. A recomendação exata deve sempre ser baseada numa análise de solo recente.
+
+**1. Adubação de Plantio (Base):**
+* **Objetivo:** Fornecer todo o Fósforo (P) necessário para o ciclo e uma dose inicial de Nitrogênio (N) e Potássio (K) para o arranque da cultura.
+* **Como Fazer:** O adubo é aplicado no sulco de plantio, ao lado e um pouco abaixo das sementes, para evitar o contato direto que pode "queimar" as sementes e prejudicar a germinação.
+* **Formulados Comuns:** Fórmulas NPK como 08-28-16, 10-20-20 ou similares são frequentemente utilizadas, dependendo da análise de solo.
+
+**2. Adubação de Cobertura:**
+* **Objetivo:** Fornecer a maior parte do Nitrogênio (N) e uma parte complementar do Potássio (K) durante o período de maior demanda da planta.
+* **Época Crítica de Aplicação:** A aplicação deve ser feita quando a planta de milho está entre os estágios **V4 (quatro folhas totalmente expandidas) e V8 (oito folhas)**. É nesta janela que a planta define o potencial produtivo da espiga (número de fileiras e de grãos por fileira). Atrasar esta adubação resulta em perdas de produtividade irreversíveis.
+* **Fontes de Nitrogênio:** As fontes mais utilizadas são a **Ureia** (45% de N) e o **Sulfato de Amônio** (21% de N). A Ureia é mais concentrada, mas pode sofrer perdas por volatilização (evaporação) se aplicada em solo seco e quente. Recomenda-se aplicá-la antes de uma chuva ou usar formulações com inibidores de urease.
+
+**Tabela: Exemplo de Recomendação de Adubação para Milho (Safra Verão)**
+*(Objetivo: produtividade de 10 a 12 ton/ha em solo de fertilidade média corrigida)*
+
+| Estágio         | Recomendação                               | Doses (kg/ha)                    | Fonte Sugerida (Exemplos)                                     |
+|-----------------|--------------------------------------------|----------------------------------|---------------------------------------------------------------|
+| **Plantio (Sulco)** | Fornecer Fósforo e arranque de N e K.      | **N:** 20-30<br>**P2O5:** 100-140<br>**K2O:** 60-80 | 400 kg/ha do formulado 08-28-16 ou similar.                   |
+| **Cobertura (V4-V8)** | Fornecer a maior parte do Nitrogênio.      | **N:** 120 - 160<br>**K2O (Opcional):** 40-60 | 300 kg/ha de Ureia ou 600 kg/ha de Sulfato de Amônio. <br>Pode-se misturar com KCL se necessário. |
+
+**Observação Final:** Esta é uma recomendação geral. A calibração final das doses de N, P e K deve ser feita por um engenheiro agrônomo com base na sua análise de solo, no híbrido utilizado e na sua meta de produtividade.

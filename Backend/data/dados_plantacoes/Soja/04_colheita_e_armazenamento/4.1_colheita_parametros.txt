@@ -1,0 +1,19 @@
+**TÓPICO: Colheita e Armazenamento da Soja - Parâmetros de Precisão**
+
+**Ponto de Colheita:**
+A colheita da soja deve ser realizada num ponto muito específico de umidade para maximizar a qualidade e minimizar as perdas.
+* **Maturidade Fisiológica (R8):** A planta está pronta quando 95% das vagens adquirem a coloração marrom ou cinza típica da cultivar.
+* **Parâmetro de Umidade Ideal:** A colheita mecânica deve ser iniciada quando os grãos atingem entre **13% e 15% de umidade**.
+* **Consequências do Erro:**
+    * **Colher Húmido (>15%):** Os grãos ficam "emborrachados", difíceis de debulhar, e sofrem mais danos mecânicos (amassamento, quebra). Aumenta muito o custo com secagem artificial.
+    * **Colher Seco (<13%):** As vagens ficam muito quebradiças e abrem-se facilmente com o toque da plataforma da colheitadeira (perdas por debulha natural). Os grãos também ficam mais suscetíveis a quebras durante a trilha.
+
+**Regulagem da Colheitadeira e Monitoramento de Perdas:**
+* **Velocidade:** Manter a velocidade entre 4 e 6 km/h.
+* **Rotação do Cilindro e Abertura do Côncavo:** Para soja, a rotação deve ser mais baixa e o côncavo mais aberto do que para o milho, para evitar a quebra dos grãos.
+* **Monitoramento de Perdas:** É obrigatório. Use um gabarito de 1m² e jogue-o na área colhida.
+    * **Parâmetro de Perda:** Em média, **4 grãos de soja por metro quadrado equivalem a uma perda de aproximadamente 1 saca por hectare**. Se encontrar mais do que isso, pare a máquina e refaça a regulagem.
+
+**Armazenamento:**
+* **Umidade Segura:** A soja deve ser armazenada com no máximo **12% de umidade** para evitar o desenvolvimento de fungos e o aquecimento da massa de grãos.
+* **Limpeza:** Antes de armazenar, os grãos devem passar por uma pré-limpeza para retirar impurezas (restos de vagem, folhas, grãos verdes), que são focos de umidade e deterioração.

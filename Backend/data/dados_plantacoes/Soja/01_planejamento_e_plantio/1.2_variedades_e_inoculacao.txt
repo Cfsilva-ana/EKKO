@@ -1,0 +1,18 @@
+**TÓPICO: Variedades e Inoculação da Soja**
+
+**Escolha de Variedades (Cultivares):**
+A escolha deve ser baseada em:
+* **Grupo de Maturação (GM):** Adequado para a sua latitude e altitude. Consulte um agrônomo local.
+* **Teto Produtivo e Estabilidade:** Variedades que produzem bem em diferentes condições.
+* **Resistência a Doenças:** Principalmente a Nematoides (de cisto e galhas) e Cancro da Haste.
+* **Tecnologia (Evento Transgênico):**
+    * **Intacta2 Xtend (I2X):** Oferece resistência às principais lagartas da cultura e tolerância aos herbicidas glifosato e dicamba.
+    * **Refúgio:** É obrigatório por lei plantar 20% da área com uma soja não-Bt (sem a tecnologia de resistência a lagartas) para servir de refúgio e evitar que as lagartas desenvolvam resistência.
+
+**Inoculação e Coinoculação (Prática Obrigatória):**
+* **Inoculação (*Bradyrhizobium*):** Essencial para a Fixação Biológica de Nitrogênio.
+    * **Como Fazer:** A inoculação deve ser feita no dia do plantio, à sombra, usando produtos turfosos ou líquidos na dose recomendada pelo fabricante. Sementes inoculadas não podem ser expostas ao sol ou a produtos químicos.
+    * **Áreas de Primeiro Ano:** Em áreas onde nunca se plantou soja, recomenda-se a dose dupla de inoculante.
+* **Coinoculação (*Azospirillum brasilense*):**
+    * **O que é:** É a prática de adicionar uma segunda bactéria, *Azospirillum brasilense*, junto com o *Bradyrhizobium*.
+    * **Benefícios:** O *Azospirillum* produz hormônios que estimulam um maior crescimento do sistema radicular da soja. Com mais raízes, a planta explora um volume maior de solo, absorvendo mais água e nutrientes (como Fósforo e Potássio), tornando-se mais resistente a períodos de seca.

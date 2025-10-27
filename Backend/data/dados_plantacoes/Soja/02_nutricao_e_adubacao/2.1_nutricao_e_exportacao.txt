@@ -1,0 +1,23 @@
+**TÓPICO: Nutrição e Adubação da Soja**
+
+**Teoria da Nutrição:**
+A soja obtém a maior parte do seu Nitrogênio (N) através da Fixação Biológica de Nitrogênio (FBN), mas é extremamente exigente nos outros macronutrientes, especialmente Potássio (K) e Enxofre (S). A adubação visa repor o que é exportado pelos grãos e corrigir as deficiências do solo.
+
+**Tabela de Extração e Exportação de Nutrientes pela Soja:**
+Para produzir **1 tonelada (1.000 kg)** de grãos de soja, a planta extrai do solo e **exporta** (remove da área) aproximadamente:
+
+| Nutriente | Quantidade Exportada (kg/tonelada de grãos) |
+|-----------|---------------------------------------------|
+| **N** | ~ 55-65 kg (maioria vinda do ar via FBN)      |
+| **P2O5** | ~ 18-22 kg |
+| **K2O** | ~ 18-22 kg |
+| **Ca** | ~ 3-5 kg |
+| **Mg** | ~ 3-5 kg |
+| **S** | ~ 3-4 kg |
+
+**Adubação de Plantio:**
+* **Foco:** A adubação da soja é feita quase que inteiramente no sulco de plantio. O foco principal é fornecer **Potássio (K)** e **Fósforo (P)**.
+* **Potássio (K):** É o nutriente mais absorvido e exportado. É crucial para o enchimento de grãos e a resistência da planta a doenças e ao estresse hídrico. Em solos com níveis baixos ou médios de K, a adubação é essencial.
+* **Fósforo (P):** Vital para o desenvolvimento radicular e a energia da planta.
+* **Enxofre (S):** Muitas vezes esquecido, mas muito importante para a soja, pois atua junto com o Nitrogênio na formação de proteínas. Solos com baixa matéria orgânica geralmente são deficientes em Enxofre.
+* **Formulados Comuns:** Fórmulas NPK como 02-20-20, 00-25-25 ou 00-20-20 são frequentemente utilizadas, dependendo da análise de solo.

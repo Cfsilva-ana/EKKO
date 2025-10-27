@@ -1,0 +1,15 @@
+**TÓPICO: Manejo de Precisão da Ferrugem-do-Cafeeiro (Hemileia vastatrix)**
+
+**Teoria Fundamental:**
+A ferrugem é uma doença explosiva. O objetivo do manejo não é eliminar a doença, mas sim **atrasar o seu progresso** o máximo possível, mantendo as folhas na planta durante a fase crítica de enchimento dos grãos.
+
+**Mecanismos de Ação dos Fungicidas:**
+1.  **Protetores (Ex: Cobre, Mancozebe):** Ficam na superfície da folha e impedem que o esporo do fungo germine e penetre.
+2.  **Sistêmicos (Ex: Triazóis, Estrobilurinas):** Entram na planta e movem-se pela seiva, tendo ação curativa e protetora.
+
+**Tabela de Níveis de Ação:**
+| Incidência Foliar | Nível de Risco | Ação Recomendada                                                                                                 |
+|-------------------|----------------|------------------------------------------------------------------------------------------------------------------|
+| **0%** (Preventivo) | Baixo          | Iniciar as aplicações com fungicidas **protetores (cúpricos)** no início das chuvas (Outubro/Novembro).            |
+| **Até 5%** | Alerta         | Entrar com a primeira pulverização de fungicidas **sistêmicos (Triazol + Estrobilurina)**, em mistura com protetores. |
+| **Acima de 5%** | Crítico        | Usar fungicidas **sistêmicos com forte ação curativa (Triazóis de alta performance)** para tentar "apagar o incêndio". |

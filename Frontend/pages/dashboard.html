@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+    <title>EKKO Unity - Dashboard</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/monitoring.css">
+    <link rel="stylesheet" href="../css/correlations.css">
+    <link rel="stylesheet" href="../css/chat_bot.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/mobile-fix.css">
+</head>
+<body>
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <i class="fas fa-gamepad"></i>
+                ekko
+            </div>
+            <div class="logo-subtitle">Agricultura de Precisão</div>
+        </div>
+        
+        <nav class="nav-menu">
+            <button class="nav-item active" onclick="showSection('dashboard', this)" id="nav-dashboard">
+                <i class="fas fa-home"></i>
+                <span>Início</span>
+            </button>
+            <button class="nav-item" onclick="showSection('profile', this)" id="nav-profile">
+                <i class="fas fa-user-circle"></i>
+                <span>Perfil</span>
+            </button>
+            <button class="nav-item" onclick="showSection('readings', this)" id="nav-readings">
+                <i class="fas fa-gamepad"></i>
+                <span>Unity</span>
+            </button>
+            <button class="nav-item" onclick="showSection('ai', this)" id="nav-ai">
+                <i class="fas fa-robot"></i>
+                <span>IA & Solo</span>
+            </button>
+            <button class="nav-item" onclick="showSection('chatbot', this)" id="nav-chatbot">
+                <i class="fas fa-comments"></i>
+                <span>Chatbot</span>
+            </button>            
+            <button class="nav-item" onclick="showSection('heatmap', this)" id="nav-heatmap">
+                <i class="fas fa-chart-bar"></i>
+                <span>Estatísticas</span>
+            </button>
+            <button class="nav-item" onclick="showSection('monitoring', this)" id="nav-monitoring">
+                <i class="fas fa-satellite-dish"></i>
+                <span>Monitoramento</span>
+            </button>
+            <button class="nav-item" onclick="showSection('development', this)" id="nav-development">
+                <i class="fas fa-code"></i>
+                <span>Desenvolvimento</span>
+            </button>
+        </nav>
+    </aside>
+
+    <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+    <main class="main-content">
+        <div class="top-bar">
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div>
+                <h1 class="page-title" id="page-title">Início</h1>
+                <div class="breadcrumb" id="breadcrumb">Início</div>
+            </div>
+            <div class="user-info">
+                <button onclick="logout()" class="logout-btn">
+                    <i class="fas fa-sign-out-alt"></i> Sair
+                </button>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Início -->
+            <section id="dashboard-section" class="content-section active">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h2>Início</h2>
+                </div>
+                <div id="dashboard-content">
+                    <p>Carregando dados...</p>
+                </div>
+            </section>
+
+            <!-- Perfil -->
+            <section id="profile-section" class="content-section">
+                <div class="section-header">
+                    <div class="section-icon unity-orange">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <h2 id="profile-greeting">Perfil</h2>
+                </div>
+                <div id="profile-content">
+                    <p>Carregando perfil...</p>
+                </div>
+                <div id="mensagem"></div>
+            </section>
+
+            <!-- IA & Solo -->
+            <section id="ai-section" class="content-section">
+                <div class="section-header">
+                    <div class="section-icon unity-purple">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h2>IA & Solo</h2>
+                </div>
+                <div id="ai-content">
+                    <p>Carregando análise de IA...</p>
+                </div>
+            </section>
+
+
+            <!-- Chat EKKO -->
+
+            <section id="chatbot-section" class="content-section">
+                
+                <div class="ekko-chat-wrapper" id="ekko-chat-wrapper">
+
+                    <div class="history-sidebar" id="history-sidebar">
+                        <div class="sidebar-header">
+                            <h3>Histórico</h3>
+                            <button class="new-session-btn" id="new-session-btn" title="Iniciar Nova Conversa">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                        <ul class="history-list" id="history-list">
+                            </ul>
+                    </div>
+
+                    <div class="sidebar-toggle">
+                        <button class="toggle-sidebar-btn" id="toggle-sidebar-btn" title="Recolher/Expandir Histórico">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="ekko-chat-container">
+                        <div class="ekko-chat-header-main">
+                            <div class="header-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2ZM9.47 11.4L7.53 9.47C7.24 9.18 6.76 9.18 6.47 9.47C6.18 9.76 6.18 10.24 6.47 10.53L8.53 12.53C8.82 12.82 9.18 12.82 9.47 12.53C9.76 12.24 9.76 11.76 9.47 11.4ZM17.53 10.53C17.82 10.24 17.82 9.76 17.53 9.47C17.24 9.18 16.76 9.18 16.47 9.47L14.53 11.4C14.24 11.69 14.24 12.17 14.53 12.46C14.82 12.75 15.3 12.75 15.59 12.46L17.53 10.53Z" fill="white"/>
+                                </svg>
+                            </div>
+                            <h3>Assistente de IA Ekko</h3>
+                        </div>
+                        <div class="ekko-chat-box" id="ekko-chat-box"></div>
+                        <div class="ekko-input-container">
+                            <input type="text" id="ekko-user-input" placeholder="Pergunte ao Ekko...">
+                            <button id="ekko-send-btn" title="Enviar">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+
+
+            <!-- Estatísticas -->
+            <section id="heatmap-section" class="content-section">
+                <div class="section-header">
+                    <div class="section-icon unity-red">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h2>Estatísticas</h2>
+                </div>
+                <div id="heatmap-content">
+                    <p>Carregando gráfico e mapa...</p>
+                </div>
+            </section>
+
+            <!-- Unity -->
+            <section id="readings-section" class="content-section">
+                <div class="section-header">
+                    <div class="section-icon unity-blue">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h2>Unity</h2>
+                </div>
+                <div id="readings-content">
+                    <p>Carregando histórico...</p>
+                </div>
+            </section>
+
+            <!-- Desenvolvimento -->
+            <section id="development-section" class="content-section">
+                <div class="section-header">
+                    <div class="section-icon unity-cyan">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h2>Desenvolvimento</h2>
+                </div>
+                <div id="development-content">
+                    <p>Carregando documentação técnica...</p>
+                </div>
+            </section>
+
+            <!-- Monitoramento -->
+            <section id="monitoring-section" class="content-section">
+                <div class="section-header">
+                    <div class="section-icon unity-green">
+                        <i class="fas fa-satellite-dish"></i>
+                    </div>
+                    <h2>Monitoramento</h2>
+                </div>
+                <div id="monitoring-content">
+                    <p>Carregando monitoramento em tempo real...</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Modal de Confirmação -->
+    <div id="confirm-modal" class="modal">
+        <div class="modal-content">
+            <h3>Confirmar Ação</h3>
+            <p id="confirm-modal-text"></p>
+            <div class="modal-buttons">
+                <button id="cancel-delete-btn" class="btn-secondary">Cancelar</button>
+                <button id="confirm-delete-btn" class="btn-danger">Apagar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/correlation-engine.js"></script>
+    <script src="../js/monitoring.js"></script>
+    <script src="../js/pdf-export.js"></script>
+    <script src="../js/unity-dashboard.js"></script>
+    <script src="../js/chat_bot.js"></script>
+</body>
+</html>

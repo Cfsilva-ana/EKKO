@@ -1,0 +1,29 @@
+**TÓPICO: Manejo da Ferrugem Asiática da Soja (Phakopsora pachyrhizi)**
+
+**Teoria e Importância:**
+A Ferrugem Asiática é a doença de maior impacto econômico na sojicultura brasileira. É causada por um fungo biotrófico, o que significa que ele precisa de tecido vegetal vivo para sobreviver e se multiplicar. Seu ciclo de vida é rápido e a disseminação dos esporos pelo vento é extremamente eficiente, permitindo que a doença se espalhe por centenas de quilômetros em poucos dias.
+
+**Danos:**
+O fungo infecta as folhas e cria "pústulas" (estruturas de reprodução) que rompem a epiderme foliar. Isso causa uma desfolha intensa e prematura. A perda de folhas, que são as "fábricas de fotossíntese" da planta, impede o enchimento completo dos grãos, resultando em grãos chochos, de baixo peso e perdas de produtividade que podem chegar a 80% se nenhum controle for adotado.
+
+**Estratégias de Manejo Integrado:**
+
+**1. Vazio Sanitário:**
+* **O que é:** É o período obrigatório, definido por lei estadual, em que é proibido manter plantas vivas de soja (cultivadas ou voluntárias) no campo. Em Minas Gerais, geralmente vai de 1º de Julho a 30 de Setembro.
+* **Objetivo:** Quebrar o ciclo de vida do fungo. Sem um hospedeiro vivo, a população inicial do patógeno para a próxima safra (o "inóculo inicial") é drasticamente reduzida. É a medida de controle mais importante.
+
+**2. Uso de Cultivares Precoces e Semeio no Início da Janela:**
+* **Estratégia:** "Escapar" da doença. Ao plantar variedades de ciclo mais curto no início da janela recomendada pelo ZARC, a colheita pode ser realizada antes que a epidemia da ferrugem atinja seu pico, que geralmente ocorre no final do ciclo da cultura.
+
+**3. Controle Químico (O Pilar do Manejo Durante a Safra):**
+* **Natureza:** O controle é **eminentemente preventivo**. Esperar os primeiros sintomas aparecerem para iniciar o controle já significa uma perda de produtividade irrecuperável.
+* **Momento da Primeira Aplicação:** A aplicação inicial de fungicidas deve ocorrer preventivamente, entre os estágios R1 (início do florescimento) и R3 (início da formação das vagens), mesmo sem a presença de sintomas.
+* **Calendário de Aplicações:** Após a primeira aplicação, as reaplicações devem ocorrer a cada 14 a 21 dias, dependendo da pressão da doença, das condições climáticas (chuvas frequentes aceleram a epidemia) e do grupo de fungicidas utilizado.
+* **Rotação de Ingredientes Ativos:** É **obrigatório** rotacionar fungicidas com diferentes mecanismos de ação para evitar o desenvolvimento de resistência do fungo. Utilize uma combinação de:
+    * **Fungicidas Protetores (Multissítios):** Ex: Mancozebe, Clorotalonil. Devem estar presentes em quase todas as aplicações.
+    * **Fungicidas Curativos (Sistêmicos):**
+        * **Triazóis:** Ex: Ciproconazol, Tebuconazol.
+        * **Estrobilurinas:** Ex: Azoxistrobina, Piraclostrobina.
+        * **Carboxamidas:** Ex: Benzovindiflupir, Bixafem.
+
+**Monitoramento:** Acompanhar os alertas do Consórcio Antiferrugem (www.consorcioantiferrugem.net) para saber quando os primeiros focos da doença são detectados na sua região é uma prática essencial.

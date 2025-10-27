@@ -1,0 +1,16 @@
+Tópico: Sistemas de Irrigação
+
+**1. Aspersão Convencional:**
+* **Como Funciona:** Simula uma chuva sobre a lavoura.
+* **Vantagens:** Custo de implantação relativamente baixo.
+* **Desvantagens:** Alta perda de água por evaporação. Molha as folhas, podendo favorecer doenças.
+
+**2. Pivô Central:**
+* **Como Funciona:** Grande estrutura metálica que gira em torno de um ponto central.
+* **Vantagens:** Alta automação e uniformidade.
+* **Desvantagens:** Custo de implantação muito alto, exige área grande e plana.
+
+**3. Gotejamento:**
+* **Como Funciona:** Aplica gotas de água diretamente na raiz da planta.
+* **Vantagens:** É o sistema mais eficiente, com perdas mínimas. Permite a "fertirrigação" (adubação na água).
+* **Desvantagens:** Custo de implantação alto, exige água filtrada.

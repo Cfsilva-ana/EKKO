@@ -1,0 +1,19 @@
+**TÓPICO: Manejo Integrado do Bicho-Mineiro (Leucoptera coffeella)**
+
+**Teoria e Danos:**
+A larva de uma pequena mariposa cria "minas" ou galerias dentro das folhas, destruindo a área que faz fotossíntese (o mesofilo foliar). Isto causa intensa queda de folhas, enfraquecendo a planta, secando ramos produtivos e reduzindo drasticamente a produção do ano seguinte, pois a planta fica sem "energia" para a florada.
+
+**Condições Favoráveis:** Períodos de seca prolongada e altas temperaturas, pois a ausência de chuvas diminui a mortalidade natural da praga.
+
+**Parâmetros de Monitoramento:**
+* **Quando:** Inspeções semanais ou quinzenais durante todo o ano, com maior atenção no período seco.
+* **Como:** Coletar folhas do terço médio e superior da planta. O Nível de Ação é baseado na porcentagem de folhas com minas ativas (larvas vivas).
+* **Nível de Ação:**
+    * **Período Chuvoso:** Controle indicado quando atinge **10%** de folhas minadas.
+    * **Período Seco:** Controle indicado quando atinge **5%** de folhas minadas.
+
+**Táticas de Controle (MIP):**
+* **Controle Genético:** A tática mais eficaz e sustentável. Dar preferência ao plantio de **variedades resistentes** ou tolerantes, como Arara e Catucaí.
+* **Controle Químico:** Para variedades suscetíveis.
+    * **Via Solo:** Aplicação de inseticidas sistêmicos no solo, no início do período chuvoso. O produto é absorvido pelas raízes e protege a planta por um longo período.
+    * **Via Foliar:** Pulverização de inseticidas de contato ou sistêmicos quando o Nível de Ação é atingido.

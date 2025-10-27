@@ -1,0 +1,14 @@
+**TÓPICO: Qualidade do Café - Classificação de Bebida (Metodologia SCA) - Nível de Precisão**
+
+**Teoria Fundamental:**
+A metodologia da Specialty Coffee Association (SCA) é o padrão global para avaliar a qualidade sensorial do café. Ela transforma percepções subjetivas (gosto, cheiro) em uma pontuação numérica objetiva.
+
+**Cálculo Final:** `Pontuação = (Soma dos 10 atributos) - (Pontos de Defeito)`
+
+**Tabela de Classificação por Pontuação:**
+| Pontuação Final | Classificação SCA      | Descrição de Mercado                                      |
+|-----------------|----------------------|-----------------------------------------------------------|
+| **90 - 100** | Excepcional (Outstanding) | Cafés raríssimos, de microlotes, com preços muito elevados. |
+| **85 - 89.99** | Excelente (Excellent) | Cafés especiais de alta qualidade, muito procurados.         |
+| **80 - 84.99** | Muito Bom (Very Good) | O patamar de entrada para os cafés especiais. Bom valor.     |
+| **< 80.0** | Abaixo de Especial | Cafés comerciais ou "commodities".                          |

@@ -1,0 +1,11 @@
+**TÓPICO: Manejo da Cercosporiose (Cercospora coffeicola)**
+
+**Biologia e Sintomas:**
+Doença fúngica fortemente ligada a desequilíbrios nutricionais. Causa manchas circulares de centro claro e bordas escuras nas folhas ("olho de pavão") e manchas escuras e deprimidas nos frutos, que podem causar a queda e afetar a qualidade.
+
+**Causa Principal:**
+A doença é um indicador de que a planta está sob algum tipo de estresse, principalmente **deficiências nutricionais** (Nitrogênio e Zinco) ou **estresse hídrico** (falta de água).
+
+**Táticas de Controle (MIP):**
+* **Controle Nutricional:** A principal medida é realizar uma **adubação equilibrada e bem feita**, com base nas análises de solo e folha. Uma planta bem nutrida é naturalmente resistente à cercosporiose.
+* **Controle Químico:** Geralmente, as mesmas pulverizações de fungicidas (especialmente Cúpricos e Estrobilurinas) usadas para o controle preventivo da ferrugem também controlam a cercosporiose.

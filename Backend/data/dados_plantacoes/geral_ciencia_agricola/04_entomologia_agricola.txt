@@ -1,0 +1,13 @@
+Tópico: Entomologia Agrícola (A Ciência dos Insetos)
+
+**1. Ciclo de Vida dos Insetos:**
+* **Metamorfose Completa (Ovo -> Lagarta -> Pupa -> Adulto):** Típico de borboletas, mariposas e besouros. A fase de "lagarta" geralmente causa o maior dano.
+* **Metamorfose Incompleta (Ovo -> Ninfa -> Adulto):** Típico de percevejos e gafanhotos. Tanto as ninfas quanto os adultos causam dano.
+
+**2. MIP - Manejo Integrado de Pragas:**
+É a abordagem moderna e sustentável. Usa um conjunto de táticas para manter a praga abaixo do Nível de Dano Econômico.
+* **Pilares do MIP:**
+    * **Controle Cultural:** Práticas agrícolas que desfavorecem a praga (rotação de culturas, etc.).
+    * **Controle Biológico:** Uso de inimigos naturais.
+    * **Variedades Resistentes:** Uso de plantas com resistência genética.
+    * **Controle Químico Racional:** O inseticida é a última ferramenta, usado apenas quando o monitoramento indica necessidade.

@@ -1,0 +1,29 @@
+Tópico: Colheita de Milho para Grãos
+
+**Teoria e Ponto de Colheita:**
+O objetivo da colheita de grãos é recolher o produto com a máxima qualidade e a mínima perda possível.
+
+* **Maturidade Fisiológica:** A planta atinge o seu máximo acúmulo de peso seco nos grãos quando se forma a **"camada preta"** na base do grão. Este é um ponto de referência visual que indica que o grão não está mais a receber nutrientes da planta. Neste ponto, a humidade do grão ainda é alta (cerca de 30-35%).
+
+* **Humidade Ideal de Colheita (O Parâmetro Prático):**
+    * A colheita mecânica só é viável quando a humidade dos grãos baixa para um nível que permita a debulha sem danos excessivos.
+    * **Parâmetro Ideal:** A faixa ideal de humidade para a colheita mecânica é de **18% a 22%**.
+    * **Consequências do Erro:**
+        * **Colher Húmido (>22%):** Aumenta o custo de secagem no armazém e causa mais danos mecânicos (amassamento) nos grãos durante a debulha.
+        * **Colher Seco (<18%):** Aumenta as perdas na plataforma (grãos que caem no chão) e o risco de quebra e trincas nos grãos, o que diminui a qualidade e o valor de mercado.
+
+**Regulagem da Colheitadeira (Onde se Ganha ou se Perde Dinheiro):**
+As perdas na colheita podem facilmente ultrapassar 3 sacas por hectare se a máquina não for bem regulada.
+
+| Componente                | Regulagem de Precisão                                                                          |
+|---------------------------|------------------------------------------------------------------------------------------------|
+| **Velocidade de Deslocamento** | **4 a 6 km/h**. A velocidade excessiva é a principal causa de perdas na plataforma (espigas que caem ou não são recolhidas) e de sobrecarga no sistema de trilha. |
+| **Rotação do Cilindro** | Varia com a humidade. **Grãos mais húmidos exigem maior rotação**. **Grãos mais secos exigem menor rotação** para evitar a quebra. Comece com 500-600 RPM e ajuste. |
+| **Abertura do Côncavo** | É o inverso da rotação do cilindro. Abertura dianteira em torno de 25-30 mm e traseira 15-20 mm. **Grãos mais secos pedem um côncavo mais aberto**. **Grãos mais húmidos pedem um côncavo mais fechado.** |
+| **Velocidade do Ventilador** | Deve ser regulado para soprar apenas a palha e os pedaços de sabugo para fora, sem levar os grãos junto. Se há muito material limpo no chão, o vento está muito forte. Se há muito sabugo no graneleiro, o vento está muito fraco. |
+
+**Monitoramento de Perdas (Método Prático):**
+* Construa um quadrado (gabarito) de 1m x 1m.
+* Após a passagem da colheitadeira, jogue o gabarito no chão em vários pontos.
+* Conte os grãos de milho soltos dentro do quadrado.
+* **Parâmetro de Perda:** Em média, **2 grãos de milho por metro quadrado equivalem a uma perda de aproximadamente 1 saca por hectare**. Este método simples permite ajustar a máquina em tempo real para minimizar o prejuízo.

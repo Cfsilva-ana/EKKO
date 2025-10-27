@@ -1,0 +1,10 @@
+**TÓPICO: Teoria e Zoneamento da Cultura da Soja**
+
+**Teoria Fisiológica (Fixação Biológica de Nitrogênio - FBN):**
+A soja (Glycine max), por ser uma leguminosa, realiza uma simbiose em suas raízes com bactérias do gênero *Bradyrhizobium*. A planta fornece energia (açúcares) para a bactéria, e a bactéria, em troca, captura o Nitrogênio (N2) do ar (que a planta não consegue usar) e o transforma em uma forma que a planta pode absorver (amônia). Isso funciona como uma "fábrica de adubo nitrogenado" na própria raiz, suprindo quase toda a necessidade de Nitrogênio da cultura. A inoculação (aplicação dessas bactérias na semente) é, portanto, a prática mais importante e de maior retorno econômico na soja.
+
+**Fotoperíodo:**
+A soja é uma planta de dias curtos, o que significa que ela floresce quando a duração da noite atinge um certo limite. É por isso que a escolha da variedade (Grupo de Maturação) correta para cada região e época de plantio é crucial para garantir que ela floresça no momento certo, maximizando o potencial produtivo.
+
+**Zoneamento Agrícola de Risco Climático (ZARC):**
+O ZARC é uma ferramenta do governo que define as épocas de plantio com menor risco climático para cada município, com base em séries históricas de clima e solo. Plantar dentro da janela do ZARC é uma exigência para ter acesso ao seguro agrícola e ao Proagro. Para a maioria das regiões de Minas Gerais, a janela de plantio ideal vai de meados de Outubro até o final de Dezembro.

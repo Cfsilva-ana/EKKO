@@ -1,0 +1,28 @@
+Tópico: Manejo da Lagarta-do-Cartucho do Milho (Spodoptera frugiperda)
+
+**Teoria e Importância:**
+A Lagarta-do-cartucho (*Spodoptera frugiperda*) é considerada a principal praga da cultura do milho no Brasil. O seu dano é tão severo porque ela ataca o "cartucho", o ponto de crescimento da planta, onde as folhas novas e a espiga futura estão a ser formadas. Uma única lagarta pode reduzir significativamente o potencial produtivo de uma planta. Adicionalmente, esta praga tem uma alta capacidade de desenvolver resistência a inseticidas, exigindo um manejo integrado e inteligente.
+
+**Danos:**
+* **Estágios Iniciais (V2-V4):** A lagarta raspa as folhas, deixando um sintoma de "janela" ou "folha raspada". Este é o melhor momento para o controle.
+* **Estágios Posteriores (V4-V8):** A lagarta penetra no cartucho, onde fica protegida. Os danos aparecem como furos simétricos nas folhas quando elas se abrem. O dano direto no ponto de crescimento pode levar à morte da planta ou a um perfilhamento improdutivo.
+* **Ataque à Espiga:** Em infestações tardias, a lagarta pode perfurar a palha e alimentar-se diretamente dos grãos, causando perdas quantitativas e abrindo portas para a entrada de fungos produtores de micotoxinas.
+
+**Estratégias de Manejo Integrado (MIP):**
+
+**1. Tecnologia Bt (Controle Genético):**
+* **O que é:** É a principal ferramenta de controle. Consiste no uso de híbridos de milho geneticamente modificados que produzem proteínas inseticidas (derivadas da bactéria *Bacillus thuringiensis*, ou Bt), tóxicas para a lagarta.
+* **Importância do Refúgio:** É **obrigatório por lei** e crucial para a sustentabilidade da tecnologia plantar uma área de **10%** da lavoura com um híbrido de milho **não-Bt** (sem a tecnologia), localizado a no máximo 800 metros da área Bt. O refúgio permite que algumas lagartas suscetíveis sobrevivam e cruzem com as raras resistentes que podem surgir na área Bt, retardando a evolução da resistência da praga.
+
+**2. Monitoramento:**
+* **Quando:** Inspeções semanais desde a emergência da cultura (VE) até o estágio V8.
+* **Como:** Caminhar pela lavoura e inspecionar 100 plantas em pontos aleatórios. Contar o número de plantas com o sintoma de "folha raspada".
+* **Nível de Ação (Parâmetro para Controle):** O controle químico complementar é recomendado quando se atinge **10% a 20%** de plantas com raspagem inicial. Esperar mais do que isso permite que a lagarta cresça e se aloje no cartucho, tornando o controle muito menos eficaz.
+
+**3. Controle Químico Racional:**
+* **Aplicação:** Deve ser um complemento à tecnologia Bt. A aplicação deve ser feita, preferencialmente, ao final da tarde ou à noite, quando a lagarta sai para se alimentar e está mais exposta.
+* **Tecnologia de Aplicação:** Usar alto volume de calda (acima de 150 L/ha) e bicos do tipo "cone cheio" direcionados para o cartucho, para garantir que o produto chegue onde a praga está.
+* **Rotação de Mecanismos de Ação:** É fundamental rotacionar inseticidas de diferentes grupos químicos (ex: Diamidas, Espinosinas, etc.) para evitar o desenvolvimento de resistência. Nunca use o mesmo produto repetidamente.
+
+**4. Controle Biológico:**
+* Existem inimigos naturais no campo (vespas, percevejos predadores) que ajudam a controlar a população. O uso de inseticidas seletivos (que matam a praga mas preservam os inimigos naturais) é uma boa prática. Produtos à base de *Baculovirus* também são uma opção de controle biológico.

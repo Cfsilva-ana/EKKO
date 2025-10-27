@@ -1,0 +1,14 @@
+Tópico: Fitopatologia (A Ciência das Doenças de Plantas)
+
+**1. Os Patógenos (Causadores de Doenças):**
+* **Fungos:** Causa mais comum de doenças (ferrugens, manchas, podridões).
+* **Bactérias:** Causam manchas de aparência oleosa e podridões moles.
+* **Vírus:** Precisam de um "vetor" (inseto) para serem transmitidos. Causam mosaicos e deformações.
+* **Nematoides:** Vermes microscópicos do solo que atacam as raízes, causando "galhas" (inchaços).
+
+**2. O Triângulo da Doença (Conceito Fundamental):**
+Uma doença só acontece com a interação de três fatores ao mesmo tempo:
+1.  **Hospedeiro Suscetível:** Uma planta sem resistência.
+2.  **Patógeno Virulento:** O agente causador presente.
+3.  **Ambiente Favorável:** Condições de clima (umidade, temperatura) ideais para o patógeno.
+O manejo de doenças consiste em quebrar um dos lados desse triângulo.

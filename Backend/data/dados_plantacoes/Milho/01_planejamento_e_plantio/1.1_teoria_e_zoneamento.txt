@@ -1,0 +1,9 @@
+Tópico: Teoria e Zoneamento da Cultura do Milho
+
+**Teoria Fisiológica:**
+O milho (Zea mays) é uma planta do grupo C4, o que significa que possui um mecanismo fotossintético altamente eficiente. Diferente de plantas C3 (como a soja), as plantas C4 conseguem fixar mais CO2 com menor perda de água, o que as torna extremamente produtivas em condições de alta luminosidade e temperatura, típicas do clima tropical brasileiro. Essa eficiência é a razão do seu alto potencial produtivo de grãos e massa para silagem.
+
+**Zoneamento Agrícola de Risco Climático (ZARC):**
+O ZARC é uma ferramenta de gestão de risco que indica as épocas de plantio mais seguras para cada município, com base em séries históricas de clima e solo.
+* **Safra de Verão ("Safra"):** É o plantio principal (Setembro a Dezembro), com o maior potencial produtivo devido à alta radiação solar e chuvas regulares.
+* **Segunda Safra ("Safrinha"):** Plantio de Janeiro a Março, após a colheita da soja. É um cultivo de maior risco, dependente das chuvas do outono. A escolha de híbridos de ciclo precoce ou superprecoce é crucial para "escapar" da seca e geada.

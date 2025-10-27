@@ -1,0 +1,140 @@
+/* Mobile Fix - Força responsividade em estilos inline */
+
+@media (max-width: 768px) {
+    /* Força todas as imagens a serem responsivas */
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+        width: auto !important;
+    }
+    
+    /* Chatbot responsivo */
+    .ekko-chat-wrapper {
+        max-height: calc(100vh - 80px) !important;
+        flex-direction: column !important;
+    }
+    
+    .history-sidebar {
+        width: 100% !important;
+        max-height: 120px !important;
+        border-right: none !important;
+        border-bottom: 1px solid #e7eaec !important;
+    }
+    
+    .ekko-chat-container {
+        width: 100% !important;
+        flex: 1 !important;
+    }
+    
+    .ekko-chat-box {
+        padding: 0.75rem !important;
+    }
+    
+    .ekko-chat-box .message {
+        max-width: 90% !important;
+        font-size: 0.9rem !important;
+    }
+    
+    .ekko-input-container {
+        margin: 0 0.75rem 0.75rem 0.75rem !important;
+    }
+    
+    /* Força todos os containers com grid inline a serem flex */
+    [style*="display: grid"],
+    [style*="display:grid"] {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    
+    /* Força larguras fixas a serem 100% */
+    [style*="width: 400px"],
+    [style*="width:400px"],
+    [style*="max-width: 350px"],
+    [style*="max-width:350px"] {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    /* Remove margens negativas */
+    [style*="margin-left: -"],
+    [style*="margin-right: -"] {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    /* Força padding menor */
+    [style*="padding: 3rem"],
+    [style*="padding:3rem"] {
+        padding: 1rem !important;
+    }
+    
+    /* Força font-size menor */
+    [style*="font-size: 3.5rem"],
+    [style*="font-size:3.5rem"] {
+        font-size: 1.5rem !important;
+    }
+    
+    [style*="font-size: 2.5rem"],
+    [style*="font-size:2.5rem"] {
+        font-size: 1.25rem !important;
+    }
+    
+    /* Força flex-direction column em rows */
+    [style*="display: flex"][style*="gap: 3rem"] {
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Chatbot mobile pequeno */
+    .ekko-chat-wrapper {
+        max-height: calc(100vh - 60px) !important;
+    }
+    
+    .history-sidebar {
+        max-height: 100px !important;
+    }
+    
+    .ekko-chat-box {
+        padding: 0.5rem !important;
+        font-size: 0.85rem !important;
+    }
+    
+    .ekko-chat-box .message {
+        max-width: 95% !important;
+        font-size: 0.85rem !important;
+        padding: 7px 10px !important;
+    }
+    
+    .ekko-input-container {
+        margin: 0 0.5rem 0.5rem 0.5rem !important;
+        padding: 0.5rem !important;
+    }
+    
+    #ekko-user-input {
+        font-size: 0.85rem !important;
+    }
+    
+    /* Força padding ainda menor */
+    [style*="padding: 2rem"],
+    [style*="padding:2rem"] {
+        padding: 0.75rem !important;
+    }
+    
+    [style*="padding: 1.5rem"],
+    [style*="padding:1.5rem"] {
+        padding: 0.75rem !important;
+    }
+    
+    /* Força font-size ainda menor */
+    [style*="font-size: 2rem"],
+    [style*="font-size:2rem"] {
+        font-size: 1.1rem !important;
+    }
+    
+    [style*="font-size: 1.5rem"],
+    [style*="font-size:1.5rem"] {
+        font-size: 1rem !important;
+    }
+}

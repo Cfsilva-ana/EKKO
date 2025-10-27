@@ -1,0 +1,16 @@
+**TÓPICO: Adubação de Produção do Café - Tabelas e Recomendações de Precisão**
+
+**Teoria da Nutrição:** O Potássio (K) é o nutriente mais exportado nos grãos. O Nitrogênio (N) é vital para o crescimento vegetativo que sustentará a safra seguinte.
+
+**Fases Fenológicas e Demanda Nutricional:**
+1.  **Pós-colheita / Início das chuvas (Set/Out):** A planta está esgotada e precisa de Fósforo (P) para o crescimento de novas raízes e de N e K para a primeira vaga de crescimento vegetativo.
+2.  **Expansão dos Frutos ("Chumbinho" a "Granação", Nov/Fev):** É o pico de demanda por **Nitrogênio (N)** e **Potássio (K)**.
+3.  **Maturação (Mar/Abr):** A demanda diminui, mas a planta ainda absorve nutrientes para a maturação final e para acumular reservas.
+
+**Tabela de Recomendação de Adubação Anual (Exemplo para 40 sacas/ha):**
+
+| Fase Fenológica      | Época         | Nutrientes-Chave | Recomendação Técnica (Doses kg/ha) | Exemplo de Formulados Comerciais e Doses |
+|----------------------|---------------|------------------|------------------------------------|------------------------------------------|
+| **Crescimento Vegetativo** | Set/Out       | **P**, N, K      | **N:** 40<br>**P2O5:** 60<br>**K2O:** 40 | 300 kg/ha de **20-05-20** + 150 kg/ha de **Super Simples**. |
+| **Florada/Expansão** | Nov/Dez       | **N**, **K** | **N:** 80<br>**K2O:** 80              | 400 kg/ha de **20-00-20**.                |
+| **Granação Intensa** | Jan/Fev       | **N**, **K** | **N:** 80<br>**K2O:** 80              | 400 kg/ha de **20-00-20**.                |

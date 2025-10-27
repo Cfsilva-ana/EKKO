@@ -1,0 +1,17 @@
+**TÓPICO: Mercado Futuro e Formação de Preço do Café
+
+O preço do café não é aleatório. Ele é formado principalmente na bolsa de valores.
+
+**Bolsa de Valores:**
+* **Referência Mundial:** A principal referência para o café arábica é a Bolsa de Nova Iorque (ICE Futures U.S.). O preço é cotado em centavos de dólar por libra-peso.
+* **No Brasil:** A bolsa B3 também negocia contratos de café.
+
+**Mercado Futuro:**
+* **O que é?** É um ambiente onde produtores e compradores negociam "contratos de compra e venda de café" para uma data no futuro, a um preço travado hoje.
+* **Hedge (Proteção de Preço):** É a principal função do mercado futuro para o produtor. Se o preço hoje está bom (ex: R$ 1.200/saca), o produtor pode vender um contrato futuro para entregar seu café daqui a 6 meses por esses mesmos R$ 1.200. É um seguro contra a queda de preços.
+
+**Fatores que Influenciam o Preço:**
+* **Clima no Brasil:** Geadas ou secas no Brasil (maior produtor mundial) fazem o preço disparar no mundo todo.
+* **Safra do Vietnã:** O Vietnã é o segundo maior produtor. Problemas na safra deles também afetam os preços.
+* **Câmbio (Dólar):** Como o café é cotado em dólar, quando o dólar sobe, o preço em Reais para o produtor também sobe.
+* **Estoques Mundiais:** Níveis baixos de estoque nos países consumidores (EUA, Europa) tendem a aumentar os preços.

@@ -1,0 +1,20 @@
+Tópico: Manejo de Percevejos e do Complexo Enfezamentos (Cigarrinha)
+
+**1. Percevejo-Barriga-Verde (*Dichelops melacanthus*)**
+
+* **Teoria e Danos:** Este percevejo sobrevive na palhada de culturas anteriores (soja, milho). Ele ataca o milho logo após a emergência (estágios VE a V4), picando a base do colmo da plântula. A injeção de toxinas pode matar o ponto principal de crescimento da planta. Em resposta, a planta tenta sobreviver emitindo múltiplos perfilhos (brotos laterais), formando uma "touceira" ou "vassoura" que não produzirá uma espiga viável. O sintoma clássico em plantas mais velhas são folhas com furos simétricos, resultado da picada quando a folha ainda estava enrolada.
+* **Manejo (Eminentemente Preventivo):**
+    * **Tratamento de Sementes:** É a principal e mais eficaz ferramenta. O uso de inseticidas sistêmicos (grupo dos Neonicotinoides) no tratamento da semente protege a plântula durante o período crítico inicial.
+    * **Manejo da Palhada:** Em áreas com alto histórico de infestação, a aplicação de um inseticida junto com o herbicida de dessecação ("seca e aplica") antes do plantio pode ajudar a reduzir a população inicial do percevejo.
+
+**2. Complexo Enfezamentos e a Cigarrinha-do-Milho (*Dalbulus maidis*)**
+
+* **Teoria e Importância:** Este é um dos problemas mais graves e complexos do milho no Brasil. A Cigarrinha-do-Milho, por si só, causa pouco dano direto. O problema é que ela atua como **inseto-vetor**, transmitindo microrganismos (molicutes: um fitoplasma e um espiroplasma) de plantas doentes para plantas sadias. Estes patógenos causam as doenças conhecidas como "Enfezamentos".
+* **Sintomas dos Enfezamentos:**
+    * **Enfezamento Pálido:** Folhas com estrias cloróticas (amareladas ou esbranquiçadas) na base.
+    * **Enfezamento Vermelho:** Avermelhamento ou arroxeamento das bordas das folhas mais velhas.
+    * **Sintomas Comuns:** Encurtamento dos entrenós (plantas "baixinhas"), proliferação de espigas pequenas e sem valor comercial, grãos chochos e morte prematura da planta.
+* **Manejo Integrado (O "Tripé de Manejo"):** Não existe cura para uma planta com enfezamento. O manejo é 100% preventivo e focado em três pilares:
+    1.  **Controle da "Ponte Verde":** Eliminar o milho voluntário ("tiguera" ou "guaxo") na entressafra. Estas plantas servem de abrigo para a cigarrinha e de reservatório para os patógenos, conectando uma safra à outra.
+    2.  **Uso de Híbridos Tolerantes:** A escolha de híbridos de milho com alto nível de tolerância genética aos enfezamentos é a medida mais importante.
+    3.  **Controle Químico do Vetor (Cigarrinha):** O controle da cigarrinha deve começar cedo, desde a emergência até o estágio V8. O tratamento de sementes com inseticidas sistêmicos é o primeiro passo, seguido por aplicações foliares sequenciais (geralmente 3 a 4 aplicações) com produtos de diferentes modos de ação (Neonicotinoides, Piretroides) para controlar a população do inseto e reduzir a taxa de transmissão da doença.

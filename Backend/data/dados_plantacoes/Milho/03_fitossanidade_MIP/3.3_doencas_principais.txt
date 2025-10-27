@@ -1,0 +1,26 @@
+ Tópico: Principais Doenças Foliares do Milho
+
+**Teoria:**
+As doenças foliares do milho são causadas majoritariamente por fungos. A sua severidade depende do "triângulo da doença": a presença do patógeno, um híbrido suscetível e, principalmente, condições climáticas favoráveis (alta umidade e temperatura específica para cada doença). O objetivo do manejo é proteger as folhas acima da espiga, pois são elas que mais contribuem para o enchimento dos grãos.
+
+**Principais Doenças:**
+
+**1. Mancha Branca ou Mancha de Phaeosphaeria (*Phaeosphaeria maydis*):**
+* **Sintomas:** Lesões inicialmente esbranquiçadas e aquosas que se tornam cor de palha, de formato alongado. Geralmente começam nas folhas inferiores e progridem para cima.
+* **Condições Favoráveis:** Alta umidade e temperaturas amenas (entre 15°C e 22°C). Muito comum em regiões de maior altitude, como o Sul de Minas.
+
+**2. Cercosporiose (*Cercospora zeae-maydis*):**
+* **Sintomas:** Lesões retangulares, de cor cinza e com bordas bem definidas, que seguem as nervuras da folha.
+* **Condições Favoráveis:** Alta umidade e temperaturas mais elevadas (25°C a 30°C).
+
+**3. Ferrugem Polissora (*Puccinia polysora*):**
+* **Sintomas:** Pequenas pústulas circulares, de cor marrom-clara (cor de canela), distribuídas em ambas as faces da folha.
+* **Condições Favoráveis:** Alta umidade e temperaturas elevadas (acima de 27°C).
+
+**Estratégias de Manejo Integrado:**
+
+* **Híbridos com Boa Sanidade Foliar:** A escolha de híbridos com bom pacote de resistência/tolerância genética é a primeira linha de defesa e a mais importante.
+* **Rotação de Culturas:** Ajuda a reduzir a quantidade de patógenos que sobrevivem na palhada de uma safra para outra.
+* **Controle Químico (Fungicidas):**
+    * **Quando Aplicar:** A aplicação de fungicidas geralmente tem o melhor custo-benefício quando feita de forma preventiva, no estágio de pré-pendoamento (VT). Uma segunda aplicação ("duplo estádio") pode ser necessária em anos de alta pressão de doenças.
+    * **Produtos:** A mistura de fungicidas dos grupos dos Triazóis e das Estrobilurinas é a mais comum e eficiente, controlando o complexo de doenças foliares.

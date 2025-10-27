@@ -1,0 +1,36 @@
+**TÓPICO: Manejo do Complexo de Percevejos na Soja**
+
+**Teoria e Importância:**
+O complexo de percevejos sugadores de vagens é o principal grupo de pragas da soja. Eles possuem um aparelho bucal picador-sugador e injetam toxinas nos grãos, causando os maiores danos qualitativos e quantitativos na cultura.
+
+**Principais Espécies:**
+* **Percevejo-Marrom (*Euschistus heros*):** O mais comum e de difícil controle.
+* **Percevejo-Pequeno (*Piezodorus guildinii*):** O mais danoso, pois ataca o grão em desenvolvimento.
+* **Percevejo-Verde (*Nezara viridula*):** Menos comum, mas também causa danos.
+
+**Danos:**
+* **Fase Vegetativa:** O ataque é raro, mas pode causar retenção foliar e "soja louca".
+* **Fase Reprodutiva (Crítica):** O dano principal ocorre a partir do canivete (R3) até o enchimento final dos grãos (R6). Ao picar a vagem, o percevejo causa:
+    * Abortamento de vagens e grãos.
+    * Chochamento e deformação dos grãos.
+    * Redução drástica do peso e do teor de óleo.
+    * Manchas e má qualidade, resultando em forte desconto no preço de venda no armazém.
+
+**Estratégias de Manejo Integrado:**
+
+**1. Monitoramento (Pano de Batida):**
+* **O que é:** É a principal ferramenta de tomada de decisão. Consiste em um pano branco de 1 metro de largura, que é estendido entre duas fileiras de soja. As plantas são sacudidas sobre o pano para a contagem dos insetos.
+* **Quando Fazer:** O monitoramento deve ser intensificado a partir do florescimento (R1), sendo feito semanalmente.
+* **Nível de Ação (Parâmetro para Controle):**
+    * **Para Produção de Grãos:** A aplicação de inseticida é recomendada quando a amostragem atinge a média de **2 percevejos (adultos + ninfas grandes) por metro** de pano de batida.
+    * **Para Produção de Sementes:** O nível de ação é mais baixo, sendo de **1 percevejo por metro**.
+
+**2. Controle Químico:**
+* **Escolha dos Produtos:** A escolha do inseticida deve ser estratégica.
+    * **Início da Infestação:** Usar produtos que contenham Neonicotinoides + Piretroides (ex: Tiametoxam + Lambda-cialotrina) para um bom choque inicial.
+    * **Com a Cultura Fechada:** Priorizar produtos com maior efeito de vapor e sistemicidade para atingir os insetos escondidos na parte de baixo das plantas.
+* **Tecnologia de Aplicação:** Usar bicos de pulverização adequados e volume de calda suficiente (acima de 150 L/ha) para garantir a cobertura completa da planta.
+
+**3. Controle Cultural:**
+* **Manejo de Plantas Daninhas:** Algumas plantas daninhas são hospedeiras de percevejos. Manter a lavoura limpa ajuda a reduzir a população inicial.
+* **Tratamento de Sementes:** O uso de inseticidas no tratamento de sementes ajuda a proteger a lavoura no início do desenvolvimento, principalmente contra o percevejo barriga-verde, que ataca o colo da plântula.

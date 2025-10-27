@@ -1,0 +1,21 @@
+**TÓPICO: Preparo do Solo e Plantio da Soja**
+
+**Teoria Fundamental:**
+O objetivo do plantio da soja é estabelecer uma população uniforme de plantas, com emergência rápida e vigorosa. A soja é particularmente sensível à compactação do solo e a uma má qualidade de semeadura.
+
+**1. Sistema de Plantio Direto (SPD):**
+* **Prática Padrão:** É o sistema mais recomendado e utilizado. O plantio é feito diretamente sobre a palhada da cultura anterior (milho, braquiária).
+* **Vantagens:** Conserva a umidade do solo, protege contra a erosão, suprime o crescimento inicial de plantas daninhas e melhora a estrutura e a vida do solo a longo prazo.
+* **Manejo da Palhada:** A palhada deve estar uniformemente distribuída. Um volume excessivo de palha pode dificultar o corte pelo disco da plantadeira e o bom contato da semente com o solo.
+
+**2. Operação de Plantio de Precisão (Parâmetros):**
+| Parâmetro                 | Especificação Técnica                               |
+|---------------------------|-----------------------------------------------------|
+| **Profundidade** | **3 a 5 centímetros** |
+| **Velocidade** | **4 a 6 km/h** |
+| **Contato Semente-Solo** | Sulco bem fechado, sem bolsas de ar.                |
+
+**Explicação dos Parâmetros:**
+* **Profundidade:** Sementes muito rasas (<3cm) podem sofrer com a falta de umidade e o ataque de pássaros. Sementes muito fundas (>5cm) gastam muita energia para emergir, resultando em plântulas fracas e desuniformes.
+* **Velocidade:** Velocidades altas causam trepidação na linha de semeadura, resultando em má distribuição de sementes e profundidade irregular, o que desuniformiza a lavoura.
+* **Contato Semente-Solo:** É crucial que o sulco de plantio seja bem fechado pelas rodas compactadoras, garantindo que a semente tenha contato com o solo úmido para uma germinação rápida e uniforme.

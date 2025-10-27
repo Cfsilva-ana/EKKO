@@ -1,0 +1,16 @@
+**TÓPICO: Preparo de Solo para Café - Teoria e Parâmetros de Precisão**
+
+**Teoria Fundamental:**
+O preparo do solo é a fundação da lavoura. O objetivo não é apenas "limpar a área", mas sim criar um ambiente físico, químico e biológico ideal para o desenvolvimento profundo do sistema radicular do cafeeiro.
+
+**Cálculo de Calagem (Fórmula de Saturação por Bases):**
+`NC (t/ha) = (V2 - V1) * CTC / (PRNT/100)`
+
+**Onde:**
+* **V2:** Saturação por bases desejada. **Parâmetro Ideal para Café:** 70%.
+* **V1:** Saturação por bases atual (da sua análise de solo).
+* **CTC:** Capacidade de Troca de Cátions a pH 7.0 (da sua análise de solo).
+* **PRNT:** Poder Relativo de Neutralização Total do calcário que você vai comprar (este valor vem na nota fiscal do produto).
+
+**Aplicação:**
+* **Parâmetro:** Aplicar 90 dias antes do plantio, incorporando com arado e grade.
